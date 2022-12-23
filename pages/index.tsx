@@ -8,6 +8,11 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Mr Men Listing | Home </title>
+      <meta name="keywords" content="Mr men"></meta>
+    </Head>
     <div >
       {/* <Navbar /> */}
       <h1 className={styles.title}>Homepage</h1>
@@ -18,5 +23,6 @@ export default function Home() {
       </Link>
       {/* <Footer /> */}
     </div>
+    </>
   )
 }
