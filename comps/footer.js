@@ -1,8 +1,8 @@
 const Footer = () => {
     return ( 
-    <div>
+    <footer>
         Footer text placeholder
-    </div> 
+    </footer> 
     );
 }
  

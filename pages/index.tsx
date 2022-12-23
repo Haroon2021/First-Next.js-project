@@ -8,13 +8,13 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div>
+    <div >
       {/* <Navbar /> */}
-      <h1>Homepage</h1>
-      <p>More text homepage 1</p>
-      <p>More text homepage 2</p>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>More text homepage 1</p>
+      <p className={styles.text}>More text homepage 2</p>
       <Link href="./mrmen">
-        <p>See the Mr Men</p>
+        <p className={styles.btn}>See the Mr Men</p>
       </Link>
       {/* <Footer /> */}
     </div>
